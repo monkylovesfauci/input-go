@@ -1,5 +1,12 @@
 # Easy to use Input Libary for GO
 
+## Installation
+
+```bash
+$ cd my-project
+$ go get https://github.com/monkylovesfauci/go-input
+```
+
 ## Example Usage
 
 ```go
