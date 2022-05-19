@@ -1,4 +1,4 @@
-# Easy to use Input Libary for GO
+# Very EASY & SIMPLE to use Input Libary for GO
 
 ## Installation
 
