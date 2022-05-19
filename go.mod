@@ -1,3 +1,3 @@
-module github.com/monkylovesfauci/go-input
+module github.com/monkylovesfauci/input-go
 
 go 1.18
