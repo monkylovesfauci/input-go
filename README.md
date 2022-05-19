@@ -20,13 +20,12 @@ import (
 
 func main() {
   name := input.String("Enter Name: ")
-  fmt.Printf("Hello %v!\n", name)
-
   age, errAge := input.Int("Enter Age: ")
   if errAge != nil {
     panic(errAge)
   }
-  fmt.Printf("You are %v years old!\n", age)
+
+  fmt.Printf("Hello %v!\nYou are %v years old!\n", name, age)
 }
 
 ```
