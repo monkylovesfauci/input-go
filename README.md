@@ -4,7 +4,7 @@
 
 ```bash
 $ cd my-project
-$ go get https://github.com/monkylovesfauci/input-go
+$ go get https://github.com/monkylovesfauci/input-go@v0.1.1
 ```
 
 ## Example Usage
