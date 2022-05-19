@@ -4,7 +4,7 @@
 
 ```bash
 $ cd my-project
-$ go get https://github.com/monkylovesfauci/go-input
+$ go get https://github.com/monkylovesfauci/input-go
 ```
 
 ## Example Usage
@@ -15,7 +15,7 @@ package main
 import (
   "fmt"
 
-  "github.com/monkylovesfauci/go-input"
+  "github.com/monkylovesfauci/input-go"
 )
 
 func main() {
