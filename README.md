@@ -4,7 +4,7 @@
 
 ```bash
 $ cd my-project
-$ go get https://github.com/monkylovesfauci/input-go@v0.1.1
+$ go get https://github.com/monkylovesfauci/input-go@v0.1.2
 ```
 
 ## Example Usage
@@ -19,7 +19,10 @@ import (
 )
 
 func main() {
-  name := input.Print("Enter Name: ")
+  name := input.String("Enter Name: ")
+  fmt.Printf("Hello %v!", name)
+
+  age := input.Int("Enter Age: ")
   fmt.Printf("Hello %v!", name)
 }
 
