@@ -24,7 +24,7 @@ func main() {
 
   age, errAge := input.Int("Enter Age: ")
   if errAge != nil {
-    panic(err)
+    panic(errAge)
   }
   fmt.Printf("You are %v years old!", age)
 }
