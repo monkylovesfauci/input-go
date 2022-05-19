@@ -20,7 +20,7 @@ import (
 
 func main() {
   name := input.String("Enter Name: ")
-  fmt.Printf("Hello %v!", name)
+  fmt.Printf("Hello %v!\n", name)
 
   age, errAge := input.Int("Enter Age: ")
   if errAge != nil {
