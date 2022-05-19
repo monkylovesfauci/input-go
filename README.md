@@ -26,7 +26,7 @@ func main() {
   if errAge != nil {
     panic(errAge)
   }
-  fmt.Printf("You are %v years old!", age)
+  fmt.Printf("You are %v years old!\n", age)
 }
 
 ```
